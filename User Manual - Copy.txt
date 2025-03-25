@@ -1,0 +1,61 @@
+**BirthDay Reminder App**
+
+1A. --> Upon opening the aap take note of the component in the window:
+	// top --> down
+	* A menu labeled "Contacts".
+	* A tabel header "| FristName | LastName | Date of birth | Age |".
+	* A search bar label "Find".
+	* A button lable "Remove".
+
+	--> Contacts contain two(2) components used for adding contact and 
+		sorting contacts in the table.
+
+		* A button labeled "Add".
+		* A menu labeled "Sort".
+	
+	--> The table header shows what to be displayed for a contact.
+	
+	--> The search bar takes an input and when the "enter" key is pressed
+		the tabel will show a selected row containing the searched input.
+	
+	--> The user can remove a contact form the table by selecting the row 
+		of the contact then press the remove button.
+
+1B. --> User can add a new contact by pressing the add button. Upon pressing the 
+	Add button a "Entering new person" window will appear, this window has a 
+	few components to create a new contact:
+		
+		* A text field labeled "Name".
+		* A text field labeled "Date Of Birth".
+		* A button labeled "Save".
+		* A button labeled "Cancel".
+
+	--> The user can type the name for the new contact.
+
+	--> The user can type the date of birth for the new contact
+
+	--> The user can now create a new contact and add them to the table.
+
+	--> The Cancel button closes the window, without adding a new contact.
+
+1C. --> User can use the Sort menu to select a method of sort, either by Name,
+	 by Age, or by DOB.
+
+		--> by Name sorts the table in alphabetical order.
+
+		--> by Age sorts the table in desending order (oldest - youngest).
+
+		--> by DOB sorts the table in order of most recent date of birth.
+	
+
+2. --> The Birthday Reminder App core functions are to store and display contacts,
+ 	and create a notification when a contacts' birthday is today.
+		
+		* The notification is call Birthday Reminder.
+
+	--> A new notification is displayed for each contact whom birthday is 
+		today, it display in the formatte "Today is Jon Doe 31's birthday".
+		And when acknowledged by pressing "OK" the notification goes away.
+
+
+
